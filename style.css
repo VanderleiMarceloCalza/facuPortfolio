@@ -1,0 +1,65 @@
+.container {
+    display: grid;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #3771b7;
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;
+    /*centraliza o menu*/
+    gap: 30px;
+}
+.minha_foto {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+    }
+
+
+
+.principal {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    padding-left: 6px;
+    padding-right: 15px;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #3771b7;
+    color: white;
+    text-align: center;
+
+}
+
+
+ul {
+    list-style-type: none;
+    color: #506E6A;
+}
+
+a,
+a:link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid #090a0a 2px;
+}
+
+li {
+    float: left;
+}
+
+a:hover {
+    background-color: #12afe3;
+    color: white;
+}
