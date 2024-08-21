@@ -50,9 +50,8 @@ ul {
 
 a,
 a:link {
-    text-decoration: none;
+    text-decoration-line: underline;
     padding: 8px 16px;
-    border: solid #090a0a 2px;
 }
 
 li {
